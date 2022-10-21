@@ -13,11 +13,33 @@
       color:blueviolet;
       font-size: 50px;
     }
-  </style>
+    .special-effect:hover{
+      font-family: sans-serif;
+      color:rgb(0, 255, 221);
+    }
+    input:focus{
+      font-weight: 700;
+      font-size: 20px;
+      color:#ff2b6e
+    }
+    li:nth-child(2n+1){
+      background-color: indianred;
+      width: 150px;
+    }
+  </style>  
 </head>
 <body>
   <h1>This is a heading</h1>
-  <h1>This is another heading</h1>
+  <h1 class="special-effect">This is another heading</h1>
   <h1>This is triple heading</h1>
+  <input type="text" name="name"><br>
+  <input type="email" name="email"><br>
+  <ul>
+    <li>this is li-1</li>
+    <li>This is list -2</li>
+    <li>This is list -3</li>
+    <li>This is list -4</li>
+    <li>This is list -5</li>
+  </ul>
 </body>
 </html>
